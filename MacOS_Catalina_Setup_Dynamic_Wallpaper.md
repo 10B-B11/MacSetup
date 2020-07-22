@@ -10,7 +10,7 @@
 csrutil disable
 ```
 
-![image](https://github.com/10B-B11/image_foc_doc/blob/master/csrutil-disable.jpg)
+[image](https://github.com/10B-B11/image_foc_doc/blob/master/csrutil-disable.jpg)
 
 4.点击左上角苹果图标，再点击重新启动
 5.打开终端 Terminal， 输入下面命令
@@ -18,7 +18,7 @@ csrutil disable
 csrutil status
 ```
 
-![image](https://github.com/10B-B11/image_foc_doc/blob/master/Screen%20Shot%202020-07-21%20at%2023.35.30.png)
+[image](https://github.com/10B-B11/image_foc_doc/blob/master/Screen%20Shot%202020-07-21%20at%2023.35.30.png)
 如果返回
 ```
 System Integrity Protection status: disabled.
@@ -33,9 +33,9 @@ System Integrity Protection status: disabled.
 1. 打开Disk Utility
 2. 选择正确的硬盘
 3. 点击右上角的info
-![image](https://github.com/10B-B11/image_foc_doc/blob/master/disk_info.png)
+[image](https://github.com/10B-B11/image_foc_doc/blob/master/disk_info.png)
 4. 复制BSD device node 的值 比如图中的disk1s1
-![image](https://github.com/10B-B11/image_foc_doc/blob/master/device_node.png)
+[image](https://github.com/10B-B11/image_foc_doc/blob/master/device_node.png)
 5. 打开终端 分别输入一下命令 (其中的disk1s1替换成上图的BSD device node的值)
 ```
 sudo mount -t apfs -wu /dev/disk1s1 /Volumes
@@ -45,14 +45,13 @@ sudo mount -wu
 ```
 ```
 killall Finder
-
 ```
 6. 打开Finder (访达)
 7. 点击菜单栏中GO, 选择 Go to Folder
-![image](https://github.com/10B-B11/image_foc_doc/blob/master/Go_in_Finder.png)
+[image](https://github.com/10B-B11/image_foc_doc/blob/master/Go_in_Finder.png)
 
 8. 在弹出的对话框里输入 `/System/Library/Desktop Pictures/`
-![image](https://github.com/10B-B11/image_foc_doc/blob/master/Go_to_Library.png)
+[image](https://github.com/10B-B11/image_foc_doc/blob/master/Go_to_Library.png)
 
 9. 把下载好的动态壁纸拖到该文件下
 
